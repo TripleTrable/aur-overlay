@@ -1,3 +1,4 @@
+# Maintainer: Lars Niesen <lars.niesen@mailbox.org>
 # Maintainer: Alexis Rouillard <contact@arouillard.fr>
 
 pkgname=waybar-git
@@ -5,7 +6,7 @@ pkgver=r2429.09142fa3
 pkgrel=1
 pkgdesc='Highly customizable Wayland bar for Sway and Wlroots based compositors (GIT)'
 arch=('x86_64')
-url='https://github.com/Alexays/Waybar/'
+url='https://github.com/TripleTrable/Waybar/'
 license=('MIT')
 provides=('waybar')
 conflicts=('waybar')
@@ -17,7 +18,7 @@ depends=(
     'jack' 'libjack.so'
     'wayland'
     'libdate-tz.so'
-    'libspdlog.so'
+    'spdlog'
     'gtk-layer-shell'
     'libupower-glib.so'
     'upower'
