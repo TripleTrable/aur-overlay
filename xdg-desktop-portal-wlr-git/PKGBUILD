@@ -4,7 +4,7 @@ pkgname=xdg-desktop-portal-wlr-git
 pkgver=0.7.0.r11.g1eaa02e
 pkgrel=1
 pkgdesc='xdg-desktop-portal backend for wlroots'
-url=https://github.com/emersion/xdg-desktop-portal-wlr
+url=https://github.com/David96/xdg-desktop-portal-wlr
 arch=(x86_64)
 license=(custom:MIT)
 provides=("${pkgname%-git}" "xdg-desktop-portal-impl")
@@ -18,7 +18,7 @@ optdepends=(
   "wofi: one of the built-in chooser options for the screencast portal"
 )
 source=(
-  "${pkgname}::git+https://github.com/emersion/xdg-desktop-portal-wlr.git"
+  "${pkgname}::git+https://github.com/David96/xdg-desktop-portal-wlr.git#branch=remotedesktop"
 )
 sha512sums=('SKIP')
 options=(debug !strip)
